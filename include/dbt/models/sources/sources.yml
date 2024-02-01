@@ -1,0 +1,10 @@
+# sources.yml
+version: 2
+
+sources:
+  - name: retail
+    database: airflow-tutorial-411421  # Put the project id!
+
+    tables:
+      - name: raw_invoices
+      - name: country
