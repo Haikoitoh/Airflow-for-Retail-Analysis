@@ -7,12 +7,12 @@ This project demonstrates an end-to-end data pipeline for analyzing retail data 
 
 ## Project Components
 
-Airflow: Orchestrates the data pipeline workflow and schedules tasks.
-BigQuery: Cloud-based data warehouse for storing and querying retail data.
-dbt: Transforms raw data into dimensional and fact tables for analysis.
-Soda: Performs data quality checks on raw and transformed data.
-Astro SDK: Facilitates interactions with Google Cloud Storage and BigQuery (in earlier stages of the project).
-Metabase: Provides interactive dashboards for data exploration and reporting.
+Airflow: Orchestrates the data pipeline workflow and schedules tasks.  
+BigQuery: Cloud-based data warehouse for storing and querying retail data.  
+dbt: Transforms raw data into dimensional and fact tables for analysis.  
+Soda: Performs data quality checks on raw and transformed data.  
+Astro SDK: Facilitates interactions with Google Cloud Storage and BigQuery (in earlier stages of the project).  
+Metabase: Provides interactive dashboards for data exploration and reporting.  
 
 ## Workflow
 
@@ -35,7 +35,7 @@ Metabase: Provides interactive dashboards for data exploration and reporting.
 
 ## Benefits of using Airflow DAG
 
-•Orchestration: Airflow DAG provides a central location to define and manage the entire data pipeline workflow.
-•Scheduling: Tasks in the DAG can be scheduled to run at specific intervals or based on dependencies.
-•Monitoring: Airflow provides a web interface to monitor the progress of the pipeline and identify any errors or failures.
-•Scalability: The DAG can be easily scaled to accommodate increasing data volumes.
+•Orchestration: Airflow DAG provides a central location to define and manage the entire data pipeline workflow.  
+•Scheduling: Tasks in the DAG can be scheduled to run at specific intervals or based on dependencies.  
+•Monitoring: Airflow provides a web interface to monitor the progress of the pipeline and identify any errors or failures.  
+•Scalability: The DAG can be easily scaled to accommodate increasing data volumes.  
