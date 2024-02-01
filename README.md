@@ -1,7 +1,7 @@
 # Airflow-for-Retail-Analysis
 
 ## Project Overview
-This project demonstrates an end-to-end data pipeline for analyzing retail data using Airflow, Bigquery, dbt, and Metabase. It ingests data from a CSV file, stores it in Snowflake, transforms it using dbt models, and creates dashboards in Metabase for visualization and analysis.
+This project demonstrates an end-to-end data pipeline for analyzing retail data using Airflow, Bigquery, dbt, and Metabase. It ingests data from a CSV file, stores it in BigQuery, transforms it using dbt models, and creates dashboards in Metabase for visualization and analysis.
 
 ![Alt text](airflow_bigquery_dbt_pipeline.png?raw=true "Title")
 
