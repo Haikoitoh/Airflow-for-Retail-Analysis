@@ -1,7 +1,7 @@
 # Airflow-for-Retail-Analysis
 
 ## Project Overview
-This project demonstrates an end-to-end data pipeline for analyzing retail data using Airflow, Snowflake, dbt, and Metabase. It ingests data from a CSV file, stores it in Snowflake, transforms it using dbt models, and creates dashboards in Metabase for visualization and analysis.
+This project demonstrates an end-to-end data pipeline for analyzing retail data using Airflow, Bigquery, dbt, and Metabase. It ingests data from a CSV file, stores it in Snowflake, transforms it using dbt models, and creates dashboards in Metabase for visualization and analysis.
 
 ![Alt text](airflow_bigquery_dbt_pipeline.png?raw=true "Title")
 
@@ -29,6 +29,9 @@ Metabase: Provides interactive dashboards for data exploration and reporting.
 6) Data Visualization: Finally, the DAG uses the Metabase to create dashboards in Metabase for visualizing and analyzing the data.
 
 7) End of the workflow: The DAG ends with a task that signals the completion of the pipeline. This task can be used to trigger downstream workflows or send notifications.
+
+## Airflow DAG
+![Alt text](airflow_dag.png?raw=true "Title")
 
 ## Benefits of using Airflow DAG
 
